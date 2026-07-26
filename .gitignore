@@ -1,0 +1,55 @@
+# Dataset folders
+experiment1/
+experiment2/
+experiment3/
+experiment4/
+experiment5/
+
+data/
+datasets/
+data_cache/
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+
+# Large/raw dataset files
+*.bdf
+*.edf
+*.mat
+*.tsv.gz
+
+# Cached/preprocessed data
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment/secrets
+.env
+.env.*
+
+# Windows/macOS
+Thumbs.db
+.DS_Store
+
+# Papers / documents
+*.pdf
